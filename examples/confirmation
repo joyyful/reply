@@ -2,6 +2,8 @@ var reply = require('./../');
 
 reply.confirm('Are you over the age of 21?', function(err, yes){
 
-    if (!err && yes) console.log("Let's partyyyyyy!");
-    else console.log("Whoa there, you're too young to party. Stay in school, kids.");
+    if (!err && yes) 
+        console.log("Let's partyyyyyy!");
+    else 
+        console.log("Whoa there, you're too young to party. Stay in school, kid.");
 });
