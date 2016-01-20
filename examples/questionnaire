@@ -1,3 +1,12 @@
+var fs = require('fs');
+var reply = require('./..');
+
+reply.get(options, function(err, answers){
+  console.log('\n ==== Replies:\n');
+  if (err) console.log(err);
+  console.log(answers);
+});
+
 {
   "name": {
   	"message": "Please type in your name."
